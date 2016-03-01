@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Memory Test 2"
+            android:id="@+id/textView32"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Instructions: The phone will read sequences of numbers of varying length, starting from your baseline length. Please clearly articulate each sequence of numbers back."
+            android:id="@+id/textView33"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/textView32"
+            android:layout_alignEnd="@+id/editText28"
+            android:layout_alignStart="@+id/editText28" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText28"
+            android:layout_below="@+id/textView33"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="64dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Score:"
+            android:id="@+id/textView34"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next Section"
+            android:id="@+id/button9"
+            android:layout_marginTop="60dp"
+            android:layout_below="@+id/editText28"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>
